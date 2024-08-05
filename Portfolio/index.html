@@ -27,7 +27,7 @@
         <span>Trupti Balbudhe</span>
       </div>
       <div class="nav-options">
-        <a href="#home">Home</a>
+        <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -130,15 +130,16 @@
         <img src="spotify-img.png">
         <div class="project-info">
           <h3>Spotify Clone</h3>
-          <p>Our HTML and CSS Spotify clone closely resembles the beloved music streaming platform, offering a glimpse into its familiar interface. With its minimalist design and responsive layout, it provides an immersive experience for users exploring music and playlists.</p>
-          <button class="btn"><a href="../spotify-clone/index.html" target="_blank">Visit</a></button>
+          <p>Our HTML and CSS Spotify clone closely resembles the beloved music streaming platform, offering a glimpse into its familiar interface. With its minimalist design and responsive layout, it provides an immersive experience for users exploring music and playlists.
+          </p>
+          <button class="btn"><a href="#" target="_blank">Visit</a></button>
         </div>
       </div>
       <div class="card">
         <div class="project-info">
           <h3>Edford University</h3>
           <p>Discover the gateway to knowledge and opportunity with this HTML and CSS-driven university website. Seamlessly navigate through diverse academic programs, student resources, and campus life highlights, all encapsulated in an intuitive and engaging interface.</p>
-          <button class="btn"><a href="../university-website/index.html" target="_blank">Visit</a></button>
+          <button class="btn"><a href="#" target="_blank">Visit</a></button>
         </div>
         <img src="university-img.png">
       </div>
@@ -147,14 +148,14 @@
         <div class="project-info">
           <h3>Amazon Clone</h3>
           <p>Experience the essence of Amazon through this HTML and CSS-only clone, offering seamless browsing and intuitive design. With polished product displays and effortless navigation, it captures the essence of the renowned e-commerce giant.</p>
-          <button class="btn"><a href="../amazon/index.html" target="_blank">Visit</a></button>
+          <button class="btn"><a href="#" target="_blank">Visit</a></button>
         </div>
       </div>
       <div class="card">
         <div class="project-info">
           <h3>Digital Marketing</h3>
           <p>Embark on a digital journey with this HTML and CSS-crafted digital marketing platform. Explore dynamic campaigns, insightful analytics, and expert strategies, all wrapped in a sleek, user-friendly interface.</p>
-          <button class="btn"><a href="../Digital Marketing/index.html" target="_blank">Visit</a></button>
+          <button class="btn"><a href="#" target="_blank">Visit</a></button>
         </div>
         <img src="Digital-img.png">
       </div>
@@ -165,13 +166,13 @@
         <div class="line"></div>
         <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
       </div>
-      <form action="#">
+      <form action="/msg" method="get">
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Enter Your Name" class="form-input">
+        <input required type="text" name="name" id="name" placeholder="Enter Your Name" class="form-input">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Enter Your Email" class="form-input">
+        <input required type="email" name="email" id="email" placeholder="Enter Your Email" class="form-input">
         <label for="msg">Message</label>
-        <textarea name="msg" id="msg" rows="10" placeholder="Enter Your Message"></textarea>
+        <textarea required name="msg" id="msg" rows="10" placeholder="Enter Your Message"></textarea>
         <button type="submit" class="btn">Submit</button>
       </form>
     </section>
@@ -193,5 +194,7 @@
         <p>Made with &hearts; by Trupti Balbudhe</p>
       </div>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>

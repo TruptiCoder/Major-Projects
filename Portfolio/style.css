@@ -61,6 +61,10 @@ nav{
     color: #2e69d6;
 }
 
+.active {
+    color: #2e69d6;
+}
+
 h1{
     font-size: 3rem;
     text-transform: uppercase;
